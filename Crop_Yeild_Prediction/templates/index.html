@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crop Yield Prediction</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #d7e1ec, #f0f3f5);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: inline-block;
+            width: 70%;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #2e86de;
+            margin-bottom: 20px;
+        }
+        input[type=file], input[type=submit] {
+            margin: 15px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        input[type=submit] {
+            background-color: #2e86de;
+            color: white;
+            font-weight: bold;
+            border: none;
+            transition: 0.3s;
+        }
+        input[type=submit]:hover {
+            background-color: #1e6bb8;
+        }
+        img {
+            margin-top: 25px;
+            border-radius: 15px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+            width: 80%;
+        }
+        h3 {
+            color: #16a085;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🌿 Crop Yield Prediction using Machine Learning 🌿</h2>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv" required><br>
+            <input type="submit" value="Predict Yield">
+        </form>
+
+        {% if accuracy %}
+            <h3>Model Accuracy: {{ accuracy }}%</h3>
+            <img src="{{ plot_path }}" alt="Yield Prediction Bar Graph">
+        {% endif %}
+    </div>
+</body>
+</html>

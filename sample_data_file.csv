@@ -1,0 +1,30 @@
+State,Rainfall (mm),Temperature (°C),Fertilizer (kg/ha),Yield (quintal/ha)
+Maharashtra,850,29,150,23
+Karnataka,920,28,145,24
+Gujarat,700,32,120,20
+Tamil Nadu,1100,30,160,26
+Punjab,950,27,180,28
+Haryana,880,26,175,27
+Madhya Pradesh,760,31,130,22
+Rajasthan,600,34,110,18
+Uttar Pradesh,980,28,170,25
+Bihar,1040,27,165,27
+West Bengal,1200,26,185,29
+Odisha,1150,29,160,26
+Andhra Pradesh,1080,30,170,27
+Telangana,950,31,155,25
+Kerala,1400,25,180,30
+Assam,1350,26,175,29
+Jharkhand,950,28,150,24
+Chhattisgarh,1000,29,155,25
+Uttarakhand,1200,23,165,28
+Himachal Pradesh,1100,22,160,27
+Jammu & Kashmir,1150,21,170,29
+Meghalaya,1500,24,185,31
+Nagaland,1400,25,175,30
+Manipur,1350,26,165,29
+Tripura,1250,27,160,28
+Mizoram,1300,26,170,29
+Arunachal Pradesh,1450,25,180,31
+Sikkim,1250,24,175,30
+Goa,1150,28,160,26

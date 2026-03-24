@@ -2,7 +2,7 @@
 # Crop Yield Prediction Using Machine Learning
 
 This project predicts crop yield based on agricultural factors such as rainfall, temperature, and fertilizer usage using **Linear Regression**.  
-A **Flask web application** is used to upload data and visualize actual vs predicted yield.
+A **Flask web application** is used to upload data and visualize actual vs predicted yield. 
 
 
 ## Features
